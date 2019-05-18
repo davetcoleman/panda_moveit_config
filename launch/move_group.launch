@@ -6,7 +6,7 @@
     <arg name="load_gripper" value="$(arg load_gripper)" />
   </include>
 
-  <arg name="planner" default="ompl" />
+  <arg name="planner" default="emptyplan" />
 
   <!-- GDB Debug Option -->
   <arg name="debug" default="false" />
